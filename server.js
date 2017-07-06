@@ -1,7 +1,6 @@
 // Get dependencies
 const express = require('express');
 const path = require('path');
-const http = require('http');
 const bodyParser = require('body-parser');
 
 // Get our API routes
@@ -41,11 +40,6 @@ app.get('*', (req, res) => {
  */
 const port = process.env.PORT || '3030';
 app.set('port', port);
-
-/**
- * Create HTTP server.
- */
-const server = http.createServer(app);
 
 /**
  * Listen on provided port, on all network interfaces.
