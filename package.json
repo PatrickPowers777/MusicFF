@@ -15,9 +15,9 @@
   "dependencies": {
     "@angular/animations": "^4.0.0",
     "@angular/cli": "1.2.0",
-    "@angular/compiler-cli": "^4.0.0",
     "@angular/common": "^4.0.0",
     "@angular/compiler": "^4.0.0",
+    "@angular/compiler-cli": "^4.0.0",
     "@angular/core": "^4.0.0",
     "@angular/forms": "^4.0.0",
     "@angular/http": "^4.0.0",
@@ -27,13 +27,15 @@
     "body-parser": "^1.17.2",
     "bootstrap": "^3.3.7",
     "core-js": "^2.4.1",
+    "es6-shim": "^0.35.3",
     "express": "^4.15.3",
     "mongoose": "^4.11.1",
     "path": "^0.12.7",
-    "rxjs": "^5.1.0",
-    "zone.js": "^0.8.4"
+    "reflect-metadata": "^0.1.10",
+    "rxjs": "^5.4.2"
   },
-  "devDependencies": {
+    
+    "devDependencies": {
     "@angular/language-service": "^4.0.0",
     "@types/jasmine": "~2.5.53",
     "@types/jasminewd2": "~2.0.2",
