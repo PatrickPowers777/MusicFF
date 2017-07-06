@@ -1,0 +1,71 @@
+.container-fluid {
+	background-color: black;
+}
+
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #ff0c0c;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand {
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #ff8514;
+}
+
+.navbar-default .navbar-nav>li>a {
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #2a60f7;
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    color: black;
+    border-radius: 8px;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand {
+	font-family: 'Amatic SC', cursive;
+	font-size: 35px;
+}
+
+.navbar-header {
+    text-align: center;
+    padding-left: 20px;
+}
+
+.container {
+	text-align: center;
+	margin-top: 100px;
+}
+
+#space {
+    margin-left: 20px;
+}
+
+#chatbox {
+    background-color: #ff0c0c ;
+    margin-left: 100px;
+    padding-left: 65px;
+    padding-right: 65px;
+    border-radius: 8px;
+}
+
+#chatbox:hover {
+    color: #35ff3c;
+}
+
+#ticket {
+    margin-left: 100px;
+}
+
+#log {
+    margin-left: 95px;
+    background-color: #ff0c0c;
+}
+
+#log:hover {
+    color: #35ff3c;
+}
