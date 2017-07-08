@@ -6,9 +6,9 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 
-// var appRoutes = require('./routes/app');
-// var messageRoutes = require('./routes/messages');
-// var userRoutes = require('./routes/user');
+var appRoutes = require('./routes/app');
+var messageRoutes = require('./routes/messages');
+var userRoutes = require('./routes/user');
 
 var app = express();
 mongoose.promise = Promise;
@@ -42,9 +42,9 @@ app.use(function (req, res, next) {
     next();
 });
 
-// app.use('/message', messageRoutes);
-// app.use('/user', userRoutes);
-// app.use('/', appRoutes);
+app.use('/message', messageRoutes);
+app.use('/user', userRoutes);
+app.use('/', appRoutes);
 
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'dist/index.html'));

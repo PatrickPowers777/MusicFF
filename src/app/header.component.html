@@ -8,6 +8,8 @@
       <li><a id="chatbox">Chat</a></li>
       <li><a id="ticket">Merch</a></li>
       <li><a id="log">Log Out</a></li>
+      <!--none of the intended links here work, unfortunately, the bottom code is the only
+      thing I was able to deploy-->
     </ul>
   </div>
 </nav>
@@ -17,7 +19,7 @@
 
 <nav class="col-md-8 col-md-offset-2">
                 <ul class="nav nav-pills">
-                    <li routerLinkActive="active"><a>Messenger</a></li>
-                    <li routerLinkActive="active"><a>Authentication</a></li>
+                    <li routerLinkActive="active"><a [routerLink]="['/messages']">Messenger</a></li>
+                    <li routerLinkActive="active"><a [routerLink]="['/auth']">Authentication</a></li>
                 </ul>
             </nav>

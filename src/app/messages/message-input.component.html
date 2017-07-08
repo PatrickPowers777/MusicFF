@@ -1,0 +1,22 @@
+
+<div class="col-md-6">
+    <form (ngSubmit)="onSubmit(f)" #f="ngForm">
+        <div class="form-group">
+            <label for="content">Content</label>
+            <input
+                    type="text"
+                    id="content"
+                    class="form-control"
+                    [ngModel]="message?.content"
+                    name="content"
+                    required>
+        </div>
+        <button type="button" class="btn btn-danger" (click)="onClear(f)">Clear</button>
+        <button class="btn btn-primary" type="submit">Save</button>
+    </form>
+</div>
+<div class="col-md-6">
+    <!--you must be signed into spotify for this to work, ran out of time before I could <!DOCTYPE>
+    custom spotify authentication-->
+    <iframe id ="play" src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A4LH4d3cOWNNsVw41Gqt2kv" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+</div>
