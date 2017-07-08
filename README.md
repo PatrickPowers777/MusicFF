@@ -2,6 +2,8 @@
 
 Music >> (fast forward) is an application designed to make musicians' financial and exposure lives easier and faster. Push content to multiple social media sites without having to go to them one by one, chat with fans in the chat room, or even sell tickets/merchandise. This app was designed using the MEAN stack, that is, with MongoDB, Express, Angular, and Nodejs. 
 
+Visit at https://desolate-woodland-99230.herokuapp.com/
+
 Copyright 2017 Patrick Powers
 
 MIT License
