@@ -17,5 +17,6 @@ export class LogoutComponent {
     onLogout() {
         this.authService.logout();
         this.router.navigate(['/auth', 'signin']);
+        alert('Thanks for visiting!');
     }
 }

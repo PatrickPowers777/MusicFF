@@ -23,7 +23,8 @@ export class SigninComponent {
                     localStorage.setItem('userId', data.userId);
                     this.router.navigateByUrl('/');
                 },
-                error => console.error(error)
+                error => console.error(error);
+                alert('Logged In!');
             );
         this.myForm.reset();
     }

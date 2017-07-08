@@ -23,9 +23,10 @@ export class SignupComponent implements OnInit {
         this.authService.signup(user)
             .subscribe(
                 data => console.log(data),
-                error => console.error(error)
+                error => console.error(error),
             );
         this.myForm.reset();
+        alert('Welcome to Music >> !!!');
     }
 
     ngOnInit() {
