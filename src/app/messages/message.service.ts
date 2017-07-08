@@ -69,7 +69,7 @@ export class MessageService {
         const token = localStorage.getItem('token')
             ? '?token=' + localStorage.getItem('token')
             : '';
-        return this.http.patch('http://localhost:3000/message/' + message.messageId + token, body, {headers: headers})
+        return this.http.patch('https://desolate-woodland-99230.herokuapp.com/message/' + message.messageId + token, body, {headers: headers})
             .map((response: Response) => response.json())
             .catch((error: Response) => {
                 this.errorService.handleError(error.json());
@@ -82,7 +82,7 @@ export class MessageService {
         const token = localStorage.getItem('token')
             ? '?token=' + localStorage.getItem('token')
             : '';
-        return this.http.delete('http://localhost:3000/message/' + message.messageId + token)
+        return this.http.delete('https://desolate-woodland-99230.herokuapp.com/message/' + message.messageId + token)
             .map((response: Response) => response.json())
             .catch((error: Response) => {
                 this.errorService.handleError(error.json());
