@@ -24,9 +24,9 @@ export class SigninComponent {
                     this.router.navigateByUrl('/');
                 },
                 error => console.error(error);
-                alert('Logged In!');
             );
         this.myForm.reset();
+        alert('Logged In!');
     }
 
     ngOnInit() {
