@@ -1,6 +1,7 @@
 # Music >>
 
 **Under Construction**
+
 As of the moment, only authentication and a chat board works. 
 
 Music >> (fast forward) is an application designed to make musicians' financial and exposure lives easier and faster. Push content to multiple social media sites without having to go to them one by one, chat with fans in the chat room, or even sell tickets/merchandise, all while listening to music. This app was designed using the MEAN stack, that is, with MongoDB, Express, Angular, and Nodejs. 
